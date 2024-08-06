@@ -42,7 +42,7 @@ The dataset used for this project is the **Plant Village Dataset** from Kaggle. 
    ```sh
    streamlit run app/main.py
 
-   ## Model Training
+## Model Training
 
 The model is trained using the Jupyter Notebook `Hate.ipynb`. This notebook includes the following steps:
 
