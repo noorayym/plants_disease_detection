@@ -2,13 +2,6 @@
 
 This project is designed to detect plant diseases using machine learning and image classification techniques. It uses the Plant Village dataset from Kaggle to train a model that can identify diseases based on visual features.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Setup](#setup)
-- [Running the Application](#running-the-application)
-
 ## Overview
 
 The Plant Disease Detection project involves:
@@ -48,4 +41,17 @@ The dataset used for this project is the **Plant Village Dataset** from Kaggle. 
 2. **Run the Application**:
    ```sh
    streamlit run app/main.py
+
+   ## Model Training
+
+The model is trained using the Jupyter Notebook `Hate.ipynb`. This notebook includes the following steps:
+
+- Data loading and preprocessing
+- Model architecture definition
+- Model training
+- Evaluation
+
+## License
+
+This project is licensed under the terms of the MIT License.
 
