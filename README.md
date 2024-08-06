@@ -27,20 +27,39 @@ The dataset used for this project is the **Plant Village Dataset** from Kaggle. 
 
    - This command will download the dataset as a zip file. Extract the contents to your project directory.
 
-## Setup
+## Installation
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/plant-disease-detection.git
-   cd plant-disease-detection
+1. **Clone the repository:**
 
-2. **Install Dependencies**:
-   ```sh
-   pip install -r requirements.txt
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
 
-2. **Run the Application**:
-   ```sh
-   streamlit run app/main.py
+2. **Create and activate a virtual environment:**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
+3. **Install the required Python packages:**
+
+    ```bash
+    pip install -r app/requirements.txt
+    ```
+
+## Usage
+
+1. **Run the Streamlit application:**
+
+    ```bash
+    streamlit run app/main.py
+    ```
+
+2. **Open your browser and navigate to `http://localhost:8501` to access the application.**
+
+3. **Download an image in the input box and click 'Classify' to see the classification result.**
 
 ## Model Training
 
